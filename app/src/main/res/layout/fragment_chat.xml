@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.chat.ChatFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:theme="@style/AppBar"
+            app:logo="@drawable/circle_logo"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            app:menu="@menu/chat_top_app_bar"
+            app:navigationIcon="?attr/actionModeCloseDrawable"
+            app:navigationIconTint="@color/white"
+            app:subtitle="был(а) в 15:25"
+            app:subtitleTextColor="@color/white"
+            app:title="Telegram"
+            app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

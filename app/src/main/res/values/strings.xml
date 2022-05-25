@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WB_Week_Four</string>
+    <string name="search">Search</string>
+    <string name="chat_name">Chat name</string>
+    <string name="last_message">Последнее сообщение</string>
+    <string name="time">15:35</string>
+    <string name="count">1</string>
+    <string name="call">Call</string>
+    <string name="menu">Menu</string>
+</resources>
